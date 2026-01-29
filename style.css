@@ -54,3 +54,16 @@ footer {
 .project a:hover {
   text-decoration: underline;
 }
+
+#about {
+  padding: 40px 20px;
+  background-color: #f9f3e7;
+  text-align: center;
+  line-height: 1.6;
+}
+
+#about h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #f2b632;
+}
