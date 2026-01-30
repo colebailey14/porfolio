@@ -3,15 +3,15 @@
   --secondary: #000000;
   --accent: #c0392b; /* Red highlight */
   --bg: #000000;
-  --text: #f0f0f0;
-  --card-bg: #1a1a1a;
-  --btn-bg: #ffffff;
+  --text: #ffffff;
+  --card-bg: #222222;
+  --btn-bg: #c0c0c0;
   --btn-text: #000000;
 }
 
 *{margin:0;padding:0;box-sizing:border-box;}
 body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);}
-.container{max-width:1000px;margin:auto;padding:2rem;}
+.container{max-width:1100px;margin:auto;padding:2rem;}
 header{background:var(--secondary);padding:1rem 0;position:sticky;top:0;z-index:100;}
 header .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;}
 header h1{font-family:'Roboto Slab',serif;color:var(--primary);}
@@ -22,8 +22,10 @@ header nav a:hover{color:var(--accent);transform:scale(1.05);}
 .project-code h2{color:var(--accent);margin-bottom:1rem;}
 .project-code pre{background:#111;padding:1rem;border-radius:10px;overflow-x:auto;color:#f0f0f0;}
 .project-code code{font-family:monospace;}
+
 .fade-up{opacity:0; transform:translateY(50px); transition:all 1s ease;}
 .fade-up.show{opacity:1; transform:translateY(0);}
+
 footer{background:var(--secondary);color:var(--primary);text-align:center;padding:1rem;margin-top:2rem;}
 
 @media(max-width:768px){
