@@ -1,7 +1,8 @@
-// Reserved for future enhancements
-// Example ideas:
-// - Scroll animations
-// - Metric count-up effects
-// - Dark mode toggle
-
-console.log("Portfolio loaded successfully");
+// Smooth scrolling for portfolio nav
+document.querySelectorAll('header nav a').forEach(anchor=>{
+    anchor.addEventListener('click', function(e){
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth' });
+    });
+});
