@@ -1,110 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Cole Bailey | Junior Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cole Bailey | Web Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Cole Bailey</h1>
-    <p>Junior Developer</p>
-  </header>
+<header>
+  <div class="container nav">
+    <h1 class="logo">Cole Bailey</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
- <section id="about">
-  <h2>About Me</h2>
-  <p>
-    I’m Cole Bailey, a results-driven professional with a background in military service, law enforcement, and security, now leveraging my expertise in programming and web development.  
-    I specialize in creating interactive Python applications, dynamic web projects, and modern portfolio websites that are both functional and visually engaging.  
-    My focus is on building efficient solutions, streamlining workflows, and delivering polished, user-friendly experiences.  
-    This portfolio showcases my skills in Python, JavaScript, Streamlit, and full-stack web development.
-  </p>
-</section>
-
-  <section>
-    <h2>Projects</h2>
-
-    <div class="project">
-  <h3>Python File Organizer</h3>
-  <p>
-    A Python script that automatically organizes files into folders
-    based on file type.
-  </p>
-  <a href="https://github.com/colebailey14/python-file-organizer" target="_blank">
-    View Code
-  </a>
-    <div class="project">
-  <h3>JavaScript Password Generator</h3>
-  <p>
-    A web-based tool built with JavaScript that generates secure
-    random passwords instantly.
-  </p>
-  <a href="https://colebailey14.github.io/js-password-generator" target="_blank">
-    Live Demo
-  </a>
-    <div class="project">
-  <h3>Python Expense Tracker</h3>
-  <p>
-    A Python script that tracks expenses, saves them to a CSV file,
-    and calculates total expenses.
-  </p>
-  <a href="https://github.com/colebailey14/python-expense-tracker" target="_blank">
-    View Code
-  </a>
-    <a href="https://python-expense-tracker.streamlit.app/" target="_blank">
-    Live Demo
-  </a>
-    <div class="project">
-  <h3>Sunshine Espresso Demo Website</h3>
-  <p>
-    A conceptual redesign of a local coffee shop website with improved layout
-    and mobile ordering demo. Not affiliated with Sunshine Espresso.
-  </p>
-      <a href="https://github.com/colebailey14/sunshine-espresso-demo" target="_blank">
-    View Code
-  </a>
-  <a href="https://colebailey14.github.io/sunshine-espresso-demo" target="_blank">
-    Live Demo
-  </a>
-</div>
-
-
-    <div class="project">
-      <h3>Python Automation Script</h3>
-      <p>A Python script that automates a repetitive task.</p>
-    </div>
-
-  </section>
-
-  <section id="skills">
-  <h2>My Skills</h2>
-  <div class="skills-container">
-    <div class="skill">Python</div>
-    <div class="skill">JavaScript</div>
-    <div class="skill">HTML & CSS</div>
-    <div class="skill">Streamlit</div>
-    <div class="skill">Git/GitHub</div>
-    <div class="skill">SQL</div>
-    <div class="skill">React</div>
-    <div class="skill">Node.js</div>
-    <div class="skill">CSS Frameworks</div>
-    <div class="skill">Portfolio Website Design</div>
-    <div class="skill">Website Development</div>
+<!-- HERO -->
+<section id="hero">
+  <div class="container">
+    <h2>Web Developer & Problem Solver</h2>
+    <p>
+      I design and build clean, functional websites and applications with a focus on
+      usability, modern design, and real-world functionality.
+    </p>
+    <a href="#projects" class="btn-primary">View My Work</a>
   </div>
 </section>
 
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <h2>Selected Projects</h2>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: cbailey14wchs@gmail@gmail.com</p>
-  </section>
+    <div class="project-card">
+      <h3>Sunshine Espresso Website</h3>
+      <p>
+        A modern coffee shop website demonstrating a real-world online ordering flow,
+        responsive layout, and clean, beach-inspired design.
+      </p>
+      <div class="project-links">
+        <a href="https://colebailey14.github.io/sunshine-espresso-demo/index.html" target="_blank">Live Demo</a>
+        <a href="https://github.com/colebailey14/sunshine-espresso-demo" target="_blank">View Code</a>
+      </div>
+    </div>
 
-  <footer>
-    <p>© 2026 Cole Bailey</p>
-  </footer>
+    <div class="project-card">
+      <h3>Password Generator</h3>
+      <p>
+        A JavaScript-based password generator allowing users to customize length and
+        character types to create secure passwords.
+      </p>
+      <div class="project-links">
+        <a href="https://colebailey14.github.io/js-password-generator/" target="_blank">Live Demo</a>
+        <a href="https://github.com/colebailey14/js-password-generator" target="_blank">View Code</a>
+      </div>
+    </div>
 
-  <script src="script.js"></script>
+    <div class="project-card">
+      <h3>Python Expense Tracker</h3>
+      <p>
+        A Python application built with Streamlit that allows users to log expenses
+        and view totals through an interactive web interface.
+      </p>
+      <div class="project-links">
+        <a href="https://python-expense-tracker.streamlit.app/" target="_blank">Live Demo</a>
+        <a href="https://github.com/colebailey14/python-expense-tracker" target="_blank">View Code</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <h2>Skills</h2>
+    <ul class="skills-grid">
+      <li>Website Development</li>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Responsive Design</li>
+      <li>UI / UX Fundamentals</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      I’m a disciplined professional with a background in operations, security,
+      and leadership, now focused on building modern web applications.
+    </p>
+    <p>
+      I bring structure, attention to detail, and a problem-solving mindset to every
+      project, with a strong focus on clean code and user experience.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <h2>Let’s Work Together</h2>
+    <p>Interested in collaborating or need a website built?</p>
+    <a href="mailto:youremail@example.com" class="btn-primary">Get In Touch</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Cole Bailey</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
