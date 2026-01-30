@@ -27,3 +27,8 @@ h2{color:var(--primary);margin-bottom:1rem;}
 .project-links a:hover{background:#00e6b8;}
 section#contact a{color:var(--primary);}
 footer{background:var(--secondary);color:var(--primary);text-align:center;padding:1rem;margin-top:2rem;}
+@media(max-width:768px){
+  .skills-list{flex-direction:column;}
+  .project-card{padding:1rem;}
+  header .container{flex-direction:column;gap:1rem;}
+}
