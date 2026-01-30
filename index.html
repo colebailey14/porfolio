@@ -21,33 +21,36 @@
       <a href="#skills">Skills</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
+      <button id="theme-toggle">🌙</button>
     </nav>
   </div>
 </header>
 
-<!-- HERO -->
-<section id="hero">
+<section id="hero" class="fade-in">
   <div class="container">
     <h2>Web Developer & Problem Solver</h2>
     <p>
       I design and build clean, functional websites and applications with a focus on
       usability, modern design, and real-world functionality.
     </p>
-    <a href="#projects" class="btn-primary">View My Work</a>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="resume.pdf" class="btn-secondary" download>Download Resume</a>
+    </div>
   </div>
 </section>
 
-<!-- PROJECTS -->
-<section id="projects">
+<section id="projects" class="fade-in">
   <div class="container">
     <h2>Selected Projects</h2>
 
-    <div class="project-card">
+    <div class="project-card featured">
       <h3>Sunshine Espresso Website</h3>
       <p>
-        A modern coffee shop website demonstrating a real-world online ordering flow,
-        responsive layout, and clean, beach-inspired design.
+        A full website redesign for a local coffee shop, showcasing a responsive layout,
+        modern UI, and a cart-based ordering flow demo.
       </p>
+      <p class="tech">HTML • CSS • JavaScript</p>
       <div class="project-links">
         <a href="https://colebailey14.github.io/sunshine-espresso-demo/index.html" target="_blank">Live Demo</a>
         <a href="https://github.com/colebailey14/sunshine-espresso-demo" target="_blank">View Code</a>
@@ -57,9 +60,10 @@
     <div class="project-card">
       <h3>Password Generator</h3>
       <p>
-        A JavaScript-based password generator allowing users to customize length and
-        character types to create secure passwords.
+        A JavaScript-based password generator that allows users to customize length
+        and character types to generate secure passwords.
       </p>
+      <p class="tech">JavaScript • DOM Manipulation</p>
       <div class="project-links">
         <a href="https://colebailey14.github.io/js-password-generator/" target="_blank">Live Demo</a>
         <a href="https://github.com/colebailey14/js-password-generator" target="_blank">View Code</a>
@@ -72,6 +76,7 @@
         A Python application built with Streamlit that allows users to log expenses
         and view totals through an interactive web interface.
       </p>
+      <p class="tech">Python • Streamlit</p>
       <div class="project-links">
         <a href="https://python-expense-tracker.streamlit.app/" target="_blank">Live Demo</a>
         <a href="https://github.com/colebailey14/python-expense-tracker" target="_blank">View Code</a>
@@ -81,8 +86,7 @@
   </div>
 </section>
 
-<!-- SKILLS -->
-<section id="skills">
+<section id="skills" class="fade-in">
   <div class="container">
     <h2>Skills</h2>
     <ul class="skills-grid">
@@ -97,8 +101,7 @@
   </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about">
+<section id="about" class="fade-in">
   <div class="container">
     <h2>About Me</h2>
     <p>
@@ -107,13 +110,12 @@
     </p>
     <p>
       I bring structure, attention to detail, and a problem-solving mindset to every
-      project, with a strong focus on clean code and user experience.
+      project, with a strong emphasis on clean code and user experience.
     </p>
   </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact">
+<section id="contact" class="fade-in">
   <div class="container">
     <h2>Let’s Work Together</h2>
     <p>Interested in collaborating or need a website built?</p>
