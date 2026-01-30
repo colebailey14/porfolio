@@ -10,7 +10,7 @@
 }
 
 *{margin:0;padding:0;box-sizing:border-box;}
-body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);}
 .container{max-width:1100px;margin:auto;padding:2rem;}
 header{background:var(--secondary);padding:1rem 0;position:sticky;top:0;z-index:100;}
 header .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;}
@@ -20,8 +20,8 @@ header nav a:hover{color:var(--accent);transform:scale(1.05);}
 
 /* HERO */
 #hero{
-  height:75vh;
-  background: linear-gradient(to right top, #000000, #222222, #333333);
+  height:70vh;
+  background: linear-gradient(to right top, #000000, #222222);
   display:flex;
   justify-content:center;
   align-items:center;
